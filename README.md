@@ -12,18 +12,18 @@ Summarize some experience while using git in our project.
 	
 下面的顺序仅供参考,具体以实际项目为准
 
-顺序 | git步骤 | git命令 | 说明
------------- | ------------- | ------------ | ------------
-1  | ``克隆代码`` | ``git clone 远程代码`` | ````  
-2  | ``创建分支`` | ``git checkout -b branch_name`` | ``这是两个命令：git branch branch_name(创建分支) 和 git checkout branch_name(切换到某分支)``
-3  | ``分支中开发`` | ```` | ````
-4  | ``review代码`` | ```` | ````
-5  | ``第一轮测试`` | ```` | ````
-6  | ``添加代码到分支的暂存区`` | ``git add somefile`` | ````
-7  | ``提交代码到分支`` | ``git commit -m "本次提交注释"`` | ````
-8  | ``切换到主分支master`` | ``git checkout master`` | ````
-9  | ``获取远程最新代码`` | ``git pull origin master`` | ````
-10 | ``合并某分支到master`` | ``git merge branch_name`` | ````
+git步骤 | git命令 | 说明
+------------- | ------------ | ------------
+克隆代码 | ``git clone 远程代码`` |   
+创建分支 | ``git checkout -b branch_name`` | ``这是两个命令：git branch branch_name(创建分支) 和 git checkout branch_name(切换到某分支)``
+分支中开发 |  | ````
+review代码 |  | ````
+第一轮测试 |  | ````
+添加代码到分支的暂存区`` | ``git add somefile`` | ````
+提交代码到分支 | ``git commit -m "本次提交注释"`` | ````
+切换到主分支master | ``git checkout master`` | ````
+获取远程最新代码 | ``git pull origin master`` | ````
+合并某分支到master | ``git merge branch_name`` | ````
 
 
 ### 各命令demo
