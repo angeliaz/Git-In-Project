@@ -15,7 +15,7 @@ Summarize some experience while using git in our project.
 git步骤 | git命令 | 说明
 ------------- | ------------ | ------------
 克隆代码 | ``git clone 远程代码`` |   
-创建分支 | ``git checkout -b branch_name`` | 这是两个命令：git branch branch_name 和 git checkout branch_name
+创建分支 | ``git checkout -b branch_name`` | 这是两个命令：git branch 和 git checkout
 分支中开发 |  | 
 review代码 |  | 
 第一轮测试 |  | 
@@ -28,15 +28,36 @@ review代码 |  |
 
 ### 各命令demo
 
-#### 1. git clone 远程代码
-	~~~ sh
-	git clone https://github.com/angeliaz/Git-Example
-	~~~
+#### git clone 远程代码
+~~~ sh
+git clone https://github.com/angeliaz/Git-Example
+~~~
 
-#### 2. git checkout -b branch_name
-	~~~ sh
-	git checkout -b dev
-	~~~
+#### git checkout -b branch_name(创建分支并切换到改分支)
+~~~ sh
+git checkout -b dev
+~~~
+
+#### git branch branch_name(创建分支)
+~~~ sh
+git branch dev
+~~~
+
+#### git checkout branch_name(切换到某分支)
+~~~ sh
+git checkout dev
+~~~
+
+#### git add somefile
+~~~ sh
+git add index.html
+~~~
+
+#### git commit -m "本次提交注释"
+~~~ sh
+git commit -m "first commit"
+~~~
+
 
 ## Git branch
 
