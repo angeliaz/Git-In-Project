@@ -3,7 +3,7 @@ Summarize some experience while using git in our project.
 
 总结使用git开发项目时的一些常用命令和一些自己的常见问题
 
-下面的例子均以[Git-Example](https://github.com/angeliaz/Git-Example)为例
+下面的例子均以[Icons-css](https://github.com/angeliaz/Icons-css/tree/master)为例
 
 
 ## Git开发流程
@@ -58,8 +58,6 @@ git add index.html
 git commit -m "first commit"
 ~~~
 
-
-## Git branch
 
 ## Git comment
 
